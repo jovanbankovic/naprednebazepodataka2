@@ -1,0 +1,1 @@
+na kraju localhosta dodati /swagger kako bi imali bolji pregled metoda

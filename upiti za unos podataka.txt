@@ -1,0 +1,15 @@
+INSERT INTO "Hotel" ("hotelID","ime","adresa","grad","telefon")
+VALUES ('1','Amico','Svetozara Markovica br. 2A','Vranje','381 (0)17 416 857');
+
+
+INSERT INTO "SignIn" ("email", "sifra", "tip","telefon")
+VALUES (
+    'amico@amico.rs',
+    'amico',
+    'vlasnik','');
+
+INSERT INTO "SignIn" ("email", "sifra", "tip","telefon")
+VALUES (
+    'radnik@amico.rs',
+    'radnik',
+    'radnik','');

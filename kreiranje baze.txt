@@ -1,0 +1,59 @@
+
+CREATE TABLE "Soba" (
+	"sobaID" text,
+	tip text,
+	smestaj text,
+	internet text,
+	klima text,
+	tv text,
+	PRIMARY KEY ("sobaID")
+)
+
+CREATE TABLE "Rezervacije" (
+	"rezID" text,
+	"sobaID" text,
+	"gostID" text,
+	datumdolaska date,
+	datumodlaska date,
+	PRIMARY KEY ("sobaID","rezID")
+);
+
+CREATE TABLE "Gost" (
+	ime text,
+	prezime text,
+	telefon text,
+	PRIMARY KEY ("telefon")
+);
+
+CREATE TABLE "Hotel" (
+    "hotelID" text,
+    ime text,
+    adresa text,
+    grad text,
+    telefon text,
+    PRIMARY KEY ("hotelID")
+);
+CREATE TABLE "SignIn" (
+    email text,
+    sifra text,
+    tip text,
+    telefon text,
+    PRIMARY KEY (email,sifra)
+);
+
+CREATE TABLE "Komentari"(
+	"komentarID" text,
+	tekst text,
+	"sobaID" text,
+	"gostID" text,
+	PRIMARY KEY ("komentarID")
+);
+
+
+
+
+
+
+
+
+

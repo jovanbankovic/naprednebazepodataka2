@@ -1,0 +1,7 @@
+
+Potrebno je bildovati sve "Column Family" koriscenjem txt fajla 'kreiranje baze.txt'.
+Izvrsiti upite iz fajla 'upiti za unos podataka.txt'.
+Aplikaciji mozete pristupiti kao vlasnik,radnik ili se registrovati kao gost.
+Vlasnik i radnik imaju dodatne funkcionalnosti.
+
+Pre startovanja projekta(folder 'amico-app-front') u cmd upisati npm install pa zatim npm start.
